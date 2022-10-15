@@ -219,6 +219,66 @@ a {
   bottom: 50%;
   transform: translate(0, 50%) rotate(45deg);
 }
+.background {
+  height: 480px;
+  background: url(../img/Фон.svg) no-repeat center / cover;
+}
+
+.container1 {
+  max-width: 540px;
+  margin-left: 167px;
+}
+
+.content {
+  max-width: 540px;
+  padding-top: 100px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+
+.text {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.block-links {
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  background: #686c6f;
+  border-radius: 4px;
+  padding: 20px 23px;
+  margin-top: 37px;
+  transition: all 0.5s ease 0s;
+}
+.link:hover {
+  background: #8dd83d;
+}
+.link1 {
+  text-decoration: none;
+  color: #ffffff;
+  background: #686c6f;
+  border-radius: 4px;
+  padding: 20px 60px;
+  margin-right: 15px;
+  margin-top: 37px;
+  transition: all 0.5s ease 0s;
+}
+.link1:hover {
+  background: #8dd83d;
+}
 
 @media (max-width: 750px) {
   .menu-icon {
