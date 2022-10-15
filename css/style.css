@@ -1,0 +1,173 @@
+/* font-family: 'Roboto', sans-serif */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  font-family: inherit;
+}
+.header {
+  background: #373a3c;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 3px solid #777;
+}
+.container-header {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.menu-link {
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}
+.promo {
+  background: url(../img/Star-Wars.png) no-repeat center / cover;
+  height: calc(100vh - 63px);
+}
+.container-promo {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.promo_title {
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.promo_title span {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 134px;
+}
+
+.block-promo-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+.promo-botton {
+  padding: 8px 19px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+.promo-botton:hover {
+  background: #8dd83d;
+}
+
+.best {
+  padding: 34px 0 165px 0;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+.best-logo {
+  display: block;
+  margin: 0 auto;
+}
+.best-title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  font-weight: normal;
+}
+.best-title span {
+  display: block;
+}
+.container {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.best-info {
+  display: flex;
+  justify-content: space-between;
+}
+.best-card {
+  background: #ffffff;
+  flex: 0 0 320px;
+  margin-top: 43px;
+}
+.best-card-img01 {
+  height: 180px;
+  background: url(../img/card01.png) no-repeat center / cover;
+}
+.best-card-img02 {
+  height: 180px;
+  background: url(../img/card02.png) no-repeat center / cover;
+}
+.best-card-img03 {
+  height: 180px;
+  background: url(../img/card03.svg) no-repeat center / cover;
+}
+.card-link {
+  display: block;
+  color: white;
+  background: #8dd83d;
+  border-radius: 4px;
+  padding: 13px 23px;
+  margin: 0 auto;
+  margin: 38px 21px 47px 21px;
+
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 21px;
+
+  transition: all 0.5s ease 0s;
+}
+.best-card-text span {
+  display: block;
+}
+.best-card-text {
+  margin-top: 13px;
+  margin-left: 22px;
+}
+.best-card-title {
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.card-link:hover {
+  background: #609627;
+}
