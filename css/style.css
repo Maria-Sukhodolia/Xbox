@@ -314,4 +314,11 @@ a {
   .best-card {
     padding-bottom: 27px;
   }
+  .container1 {
+    margin-left: 20px;
+  }
+  .block-links {
+    margin-right: 25px;
+    text-align: center;
+  }
 }
