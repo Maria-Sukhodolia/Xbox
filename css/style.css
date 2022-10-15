@@ -246,8 +246,12 @@ a {
     text-align: center;
   }
 }
-@media (max-width: 950px) {
+@media (max-width: 900px) {
   .best-info {
     display: block;
+    margin-top: 20px;
+  }
+  .best-card {
+    padding-bottom: 27px;
   }
 }
